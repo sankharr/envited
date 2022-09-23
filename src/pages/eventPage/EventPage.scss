@@ -1,0 +1,78 @@
+.EventPage {
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica";
+
+  img {
+    height: 375px;
+  }
+  h2 {
+    font-size: 28px;
+    margin: 11px 20px 0;
+  }
+  p {
+    font-size: 14px;
+    margin: 11px 20px 16px;
+    color: #828282;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.EventPage__infoTile {
+  display: flex;
+  align-self: center;
+  margin: 16px 20px 0;
+  width: 350px;
+}
+
+.EventPage__firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  color: #8456ec;
+  font-size: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  // text-align: center;
+}
+
+.EventPage__secondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.EventPage__firstLine {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.EventPage__secondLine {
+    font-size: 14px;
+    color: #4F4F4F;
+    line-height: 16px;
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.textBold {
+    font-weight: 700;
+}
+
+.EventPage__thirdSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
