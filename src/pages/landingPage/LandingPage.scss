@@ -1,0 +1,63 @@
+.LandingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+//   justify-content: center;
+  font-family: Helvetica;
+  background-color: #f6f2ff;
+  padding: 0 27px;
+    height: 100vh;
+
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #240d57;
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+
+    &:nth-child(1) {
+        margin-top: 94px;
+    }
+
+    &:nth-child(2) {
+      //   border: 2px solid red;
+      line-height: 41px;
+      background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 16px;
+
+    color: #4f4f4f;
+  }
+
+  img {
+    width: 165.63px;
+    height: 292px;
+    margin-top: 36px;
+  }
+
+  button {
+    width: 187px;
+    height: 50px;
+    margin-top: 34px;
+    background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    border: none;
+    color: #FFFFFF;
+  }
+}
